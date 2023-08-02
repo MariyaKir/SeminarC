@@ -16,7 +16,7 @@ void WriteRange(int quadrant)
     else if (quadrant == 1) Console.WriteLine("x > 0 and y > 0");
     else if (quadrant == 2) Console.WriteLine("x < 0 and y > 0");
     else if (quadrant == 3) Console.WriteLine("x < 0 and y < 0");
-    else Console.WriteLine("x < 0 and y > 0");
+    else Console.WriteLine("x > 0 and y < 0");
 }
 
 Console.Write("Input a number of quadrant: ");
